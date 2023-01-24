@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package file_get;
+
+message FileGetMessage {
+    string fileName = 1;
+}
